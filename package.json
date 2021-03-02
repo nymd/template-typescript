@@ -1,0 +1,15 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "rm -rf dist/ && tsc"
+  },
+  "repository": "https://github.com/nymd/",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.2.2"
+  }
+}
